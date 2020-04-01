@@ -161,6 +161,12 @@ iframe {
 		max-width: 600px;
 		grid-template-columns: 1fr 1fr;
 	}
+
+	.modal-content {
+		overflow: hidden;
+		padding-top: 56.25%;
+		position: relative;
+	}
 }
 
 @media (max-width: 658px) {
